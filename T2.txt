@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 2 - Oasis Infobyte</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f1f1;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 80px;
+      text-align: center;
+    }
+    .header {
+      background-color: #1e00ff;
+      color: #fff;
+      padding: 20px;
+      overflow: hidden; /* Add this line to hide the overflow from sliding */
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 36px;
+      opacity: 0;
+      transform: translateX(100%);
+      animation: slideIn 2s forwards; /* Apply the sliding animation */
+    }
+    @keyframes slideIn {
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    .intro {
+      margin-top: 40px;
+    }
+    .tasks {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .task {
+      flex: 1;
+      padding: 20px;
+      background-color: #4535fc;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .task h2 {
+      font-size: 24px;
+    }
+    .task p {
+      color: #ffffff;
+    }
+    .contact {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #0d00ff;
+      color: #fff;
+      border-radius: 8px;
+    }
+    .contact p {
+      margin: 0;
+    }
+    .linkedin {
+      color: #007bff;
+    }
+    .collage {
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <h1>Welcome to My PORTFOLIO Task 2</h1>
+      <p>Get to know about me and my accomplishments.</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="intro">
+      <img src="icon.css" alt="image" class="icon">
+      <h2>About Me</h2>
+      <p>Hello! I'm Anshu Upadhyay, and I'm excited to share my journey and experiences with Oasis Infobyte Internship. During my tenure at Oasis Infobyte, I explored various aspects of web development and gained practical insights into crafting engaging user interfaces. Through the completion of three fundamental tasks in Level 1, I've honed my skills in creating impactful digital experiences. Join me as I take you through my journey of growth and learning.</p>
+    </div>
+    <div class="tasks">
+      <div class="task">
+        <h2>Task 1 - Oasis Infobyte Level 1</h2>
+        <p>Completed Task 1: To create a Landing Page about Oasis Infobyte Level 1. Gained valuable skills in developing a landing page using HTML and CSS.</p>
+      </div>
+      <div class="task">
+        <h2>Task 2 - Oasis Infobyte Level 1</h2>
+        <p>Accomplished Task 2: To create a PORTFOLIO showcasing my achievements during Oasis Infobyte Level 1. Explored the world of web development and user-centric design.</p>
+      </div>
+      <div class="task">
+        <h2>Task 3 - Oasis Infobyte Level 1</h2>
+        <p>Finished Task 3: To create a Temperature Converter Website. Gained insights into user interface design, practical JavaScript applications, and precise algorithmic implementation. This venture enhanced my front-end development skills and empowered me to create user-friendly and interactive web solutions.</p>
+      </div>
+    </div>
+    <div class="collage">
+      <h2>Educational Background</h2>
+      <p>Pursuing B.Tech in CSBS at Medi-Caps University</p>
+      <h3>Technical Skill Set</h3>
+      <ul>
+        <li>Programming Languages: C++, C, Python, HTML, and CSS</li>
+        <li>Web Development: HTML and CSS</li>
+        <li>Database Management: MYSQL and Oracle</li>
+      </ul>
+    </div>
+    <div class="contact">
+      <h2>Contact Information</h2>
+      <p>Feel free to connect with me on <span class="linkedin">LinkedIn</span>:https://www.linkedin.com/in/anshu-upadhyay-6b7518246</p>
+      <p>Email: upadhayayanshu1625@gmail.com</p>
+      <p>Phone: 0000000000</p>
+      <p>View my resume: <a href="resume.pdf" target="_blank">Resume</a></p>
+    </div>
+  </div>
+</body>
+</html>
